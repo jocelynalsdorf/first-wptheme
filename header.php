@@ -43,7 +43,8 @@
     <header id="site-header" role="banner">            
             <h1>
                 <a href="<?php echo esc_url( home_url( "/" ) ); ?>">
-                    <?php bloginfo("name"); ?> <!-- if you want a logo instead then replace this with this: <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" alt="<?php bloginfo("name"); ?>" /> -->
+                    <?php bloginfo("name"); ?>
+                     //if you want a logo instead then replace last line with this: <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" alt="<?php bloginfo("name"); ?>" /> 
                 </a>
             </h1>
             <nav id="access" role="navigation">

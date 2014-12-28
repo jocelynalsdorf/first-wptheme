@@ -17,6 +17,9 @@
         &copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?><br><!-- copyright goes here -->
         <a href="http://yoursite.com" rel="nofollow">theme by JossMonster!</a>
     </div>
+    <div class="footer-menu-area">
+    	<?php wp_nav_menu( array( 'theme_location' => 'footer' ) ); ?>
+    </div>
 </footer><!-- #colophon -->
 
 <?php wp_footer(); ?> 
